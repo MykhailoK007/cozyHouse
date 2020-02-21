@@ -43,6 +43,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     margin-top: 256px;
+    margin-left: 170px;
+
 }
 .mainText h1{
     color:white;
@@ -59,10 +61,12 @@ header{
     margin-left: 100px;
     color:black;
     background:var(--main-lihgt-color);
+    margin-left: 250px;
+
 }
 .about{
     width: 45%;
-    height: 590px;
+    height: 500px;
     margin: 0 auto;
     display: flex;
     padding-top: 100px;
@@ -74,4 +78,49 @@ header{
 .rightSide h2,p{
     color:grey;
     margin-bottom: 40px;
+}
+#ourFriendsWrapper{
+    height: 830px;
+    margin: 0 auto;
+    background: #ebebeb;
+}
+.ourFriends{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 75px;
+}
+.ourFriends h1{
+    color:grey;
+    margin-bottom: 50px;
+}
+.slidesContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+
+}
+.leftArrow,.rightArrow{
+    width: 40px;
+    height: 40px;
+    background: #f1cdb3;
+    line-height: 40px;
+    border-radius: 50px;
+    justify-content: center;
+    margin-top: 200px;
+}
+.rightArrow{
+    transform: rotate(180deg);
+}
+
+.leftArrow:hover,.rightArrow:hover{
+    background: none;
+    border:3px solid #f1cdb3;
+}
+.slides{
+    display: flex;
+}
+.slide{
+    margin-right: 50px;
+
 }
