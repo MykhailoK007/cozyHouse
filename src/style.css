@@ -8,6 +8,7 @@
     font-family:"Palatino" ;
     color:var(--main-lihgt-color);
     text-decoration: none;
+    box-sizing: border-box;
 }
 .main{
     height: 850px;
@@ -66,7 +67,7 @@ header{
 }
 .about{
     width: 45%;
-    height: 500px;
+    height: 590px;
     margin: 0 auto;
     display: flex;
     padding-top: 100px;
@@ -123,4 +124,89 @@ header{
 .slide{
     margin-right: 50px;
 
+}
+.help{
+    height: 490px;
+    width: 60%;
+    margin: 0 auto;
+}
+.help h1{
+    text-align: center;
+    margin:40px 0px  90px 0px;
+    color:grey
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.item{
+    width: 20%;
+    text-align: center;
+}
+.item img{
+    margin-bottom: 10px;
+}
+.donationWrapper{
+    background: #ebebeb;
+    height: 500px;
+    padding-top: 100px;
+}
+.donation{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.donation img{
+    margin-right:100px;
+}
+.donation h1,h5{
+    color: grey;
+    margin-bottom: 10px;
+
+}
+.card{
+    background:var(--main-lihgt-color);
+    height: 40px;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: grey;
+    width: 250px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.card img{
+    margin-right:10px;
+}
+.card div{
+    color:grey;
+    line-height: 30px;
+    text-align: end;
+}
+.contactContainer{
+    width: 100%;
+    background: #3b2c1f;
+}
+.contacts{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px;
+}
+.contacts h2{
+    color: grey;
+    margin-bottom:40px ;
+}
+.contact,.locations{
+    margin-top: 100px;
+}
+.contactsItem{
+    display: flex;
+    margin-bottom: 20px;
+}
+.contactsItem img{
+    margin-right: 30px;
 }
